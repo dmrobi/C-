@@ -42,6 +42,16 @@ namespace WpfApplication1
             /*char[] charArray = {'H', 'e', 'l', 'l', 'o'};
             string charString = new string(charArray);
             outPut("This is " + charString);*/
+
+            /*StringBuilder strBuilder = new StringBuilder();
+            //building string using Append Method....
+            strBuilder.Append("Dm ");
+            strBuilder.Append("Robi");
+            //another way to build string....
+            strBuilder.Append("Dm ");
+            strBuilder.Append("Robi");
+            //output
+            outPut(strBuilder.ToString());*/
         }
 
         private void outPut(string value)
